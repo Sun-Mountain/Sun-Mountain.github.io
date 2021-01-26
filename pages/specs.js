@@ -19,6 +19,7 @@ export default function Specs() {
         <div>
           <h1>Specs</h1>
           <b>Name:</b> Eleanor<br />
+          <em>She's a legit snack.</em><br />
           <b>CPU:</b> Ryzen 5 5600X<br />
           <b>Motherboard:</b> ROG STRIX B550-F<br />
           <b>Video Card:</b> GeoForce RTX 3070<br />
