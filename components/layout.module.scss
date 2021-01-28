@@ -36,6 +36,14 @@
   }
 }
 
+.logo_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
 .headerImage {
   width: 6rem;
   height: 6rem;
