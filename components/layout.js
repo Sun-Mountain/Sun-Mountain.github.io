@@ -65,7 +65,7 @@ export default function Layout({ children, home, specs }) {
           <div>
             <Link href="https://twitter.com/NikaCodes">
               <a target='_blank'>
-                <Image
+                <img
                   src="/../public/logos/twitter-logo.svg"
                   alt="Twitter logo"
                   width={50}
@@ -77,8 +77,8 @@ export default function Layout({ children, home, specs }) {
           <div>
             <Link href="https://github.com/Sun-Mountain">
               <a target='_blank'>
-                <Image
-                  src="/../public/logos/github-logo.svg"
+                <img
+                  src="/public/logos/github-logo.svg"
                   alt="Github logo"
                   width={45}
                   height={45}
