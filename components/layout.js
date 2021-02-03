@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 import cn from 'classnames'
 import nav from '../styles/nav.module.scss'
@@ -59,5 +60,33 @@ export default function Layout({ children, home, specs }) {
           </div>
         )}
       </main>
+      <footer>
+        <div className={styles.logo_container}>
+          <div>
+            <Link href="https://twitter.com/NikaCodes">
+              <a target='_blank'>
+                <img
+                  src="/../public/logos/twitter-logo.svg"
+                  alt="Twitter logo"
+                  width={50}
+                  height={50}
+                />
+              </a>
+            </Link>
+          </div>
+          <div>
+            <Link href="https://github.com/Sun-Mountain">
+              <a target='_blank'>
+                <img
+                  src="/public/logos/github-logo.svg"
+                  alt="Github logo"
+                  width={45}
+                  height={45}
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>)
 } 
