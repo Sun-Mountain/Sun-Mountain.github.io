@@ -7,7 +7,7 @@ import styles from './layout.module.scss'
 const name = 'Nika'
 export const siteTitle = 'Nika Zonnenberg Portfolio'
 
-export default function Layout({ children, home, specs }) {
+export default function Layout({ children, home, specs, portfolio }) {
   return (<div className={styles.container}>
       <Head>
         <html lang="eng-US" />
@@ -47,6 +47,11 @@ export default function Layout({ children, home, specs }) {
             <a className={cn({
               [nav.selected]: specs
             })}>Specs</a>
+          </Link>
+          <Link href="/portfolio">
+            <a className={cn({
+              [nav.selected]: portfolio
+            })}>Portfolio</a>
           </Link>
         </div>
       </header>

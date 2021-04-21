@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Link from 'next/link'
 
-import spec from '../styles/specs.module.scss'
+import specCSS from '../styles/specs.module.scss'
 
 export default function Specs() {
   return (
@@ -10,7 +10,7 @@ export default function Specs() {
       <Head>
         <title>Gaming PC Specs</title>
       </Head>
-      <section className={spec.spec_container}>
+      <section className={specCSS.spec_container}>
         <div>
           <img
             src="/images/eleanor.png"
