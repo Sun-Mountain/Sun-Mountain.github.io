@@ -1,0 +1,60 @@
+@import '../styles/base';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+
+    a {
+      background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+
+    a:hover {
+      -webkit-text-fill-color: $trypan-blue2;
+      color: $trypan-blue2;
+      text-decoration: none;
+    }
+
+    a:visited {
+      background: -webkit-linear-gradient(45deg, $purple2, $ultramarine 80%);;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.container {
+  background-color: $white;
+  border: 1px solid $trypan-blue2;
+  box-shadow: 5px 10px $trypan-blue2;
+  margin: 25px auto;
+  max-width: $max;
+  padding: 25px;
+}
